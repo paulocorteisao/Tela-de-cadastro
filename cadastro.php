@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/index.css">
+        <link rel="stylesheet" href="../styles/cadastro.css">
+
+
+    <title>Cadastro</title>
+</head>
+<body>
+     <nav>
+    <div class="logo">
+  
+    <span ><strong class="name">Kizola</strong> <br> <small>DOAR · TRANSFORMAR</small></span>
+  
+    </div> 
+
+    <div class="button-nav">
+       <a href="./login.php"> <button class="login">Login</button></a>
+       <a href="./cadastro.php"> <button class="cadastro">Cadastrar</button></a>
+    </div>
+    </nav>
+
+    <section class="home">
+       
+         <div class="description">
+            <div class="titulo">Kizola</div>
+
+            <div class="text">
+                <h1>
+                  Sua primeira  <br> doação começa  <br> aqui. 
+                </h1>
+            </div>
+            <div class="desen">
+                <span>Crie sua conta gratuita e comece a ganhar pontos <br> enquanto transforma vidas.</span>
+            </div>
+        </div>
+       </div>
+        <div class="card-login">
+           <div class="car-login-2">
+
+             
+<h1>Crie sua conta gratuita</h1>
+
+<strong class="s-login">
+    Já tem uma conta? <small class="sl-login">Iniciar sessão.</small>
+</strong>
+
+<form action="/Front-end/pages/dashboard.php" method="POST">
+
+    <div class="label-new">
+        <label>Nome completo</label>
+    </div>
+    <input type="text" name="nome" placeholder="Insira o seu nome" required>
+
+    <div class="label-new">
+        <label>Endereço de e-mail</label>
+    </div>
+    <input type="email" name="email" placeholder="you@gmail.com" required>
+
+    <div class="label-new">
+        <label>Senha</label>
+    </div>
+    <input type="password" name="senha" placeholder="Pelo menos 6 caracteres" minlength="6" required>
+
+    <div class="label-new">
+        <label>Confirme a senha</label>
+    </div>
+    <input type="password" name="confirmar_senha" placeholder="Digite a senha novamente" minlength="6" required>
+
+    <label class="checkbox-label">
+        <input type="checkbox" name="terms" value="1" required>
+        <span>
+            Concordo com os Termos de Uso e a Política de Privacidade.
+        </span>
+    </label>
+
+        <button type="submit" class="button-entrar">
+        Cadastrar
+    </button>
+    
+
+</form>
+
+
+               <div class="divider">
+    <div class="line"></div>
+    <span>Ou continue com</span>
+    <div class="line"></div>
+              </div>
+                <div class="opcoes-login">
+                    <button>Google</button>
+                    <button>Facebook</button>
+                </div>
+            </form>
+           </div>
+        </div>
+
+      
+    </section>
+    <fieldset></fieldset>
+      <footer>
+            <div class="logo-footer"><div class="logo">
+  
+    <span ><strong class="name">Kizola</strong> <br> <small>DOAR · TRANSFORMAR</small></span>
+  
+    </div> </div>
+            <div class="frase-footer"><span>Doar é uma maneira simples de mudar vidas.</span></div>
+            <div class="ano-footer"><span>© 2026 Kizola. Feito com carinho.</span></div>
+        </footer>
+
+
+    
+</body>
+<script src="../scripts/cadastro.js"></script>
+</html>
