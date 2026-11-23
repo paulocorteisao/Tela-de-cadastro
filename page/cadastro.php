@@ -104,5 +104,5 @@
 
     
 </body>
-<script src="../scripts/cadastro.js"></script>
+<script src=""></script>
 </html>
