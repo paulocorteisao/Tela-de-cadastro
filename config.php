@@ -7,7 +7,7 @@ $dbName = 'sistema_cadastro';
 
 $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName );
 
-if($conexao ->connect_errno)
+if($conexao ->connect_error)
 {
     echo "Erro";
 }
