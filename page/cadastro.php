@@ -4,25 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/login.css">
-    <link rel="stylesheet" href="../styles/index.css">
-        <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../style/index.css">
+        <link rel="stylesheet" href="../style/cadastro.css">
 
 
     <title>Cadastro</title>
 </head>
 <body>
-     <nav>
-    <div class="logo">
-  
-    <span ><strong class="name">Kizola</strong> <br> <small>DOAR · TRANSFORMAR</small></span>
-  
-    </div> 
-
-    <div class="button-nav">
-       <a href="./login.php"> <button class="login">Login</button></a>
-       <a href="./cadastro.php"> <button class="cadastro">Cadastrar</button></a>
-    </div>
-    </nav>
+     
 
     <section class="home">
        
